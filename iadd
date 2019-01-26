@@ -1,0 +1,10 @@
+echo 'Select the file to add: '
+
+untracked=$(git ls-files --others --exclude-standard)
+arr=($untracked)
+select fl in "${arr[@]}";
+do
+	[ -n "${fl}" ] && break
+done
+git add $fl
+echo "File added: ${fl}"

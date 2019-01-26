@@ -1,0 +1,2 @@
+read -e -p "Type the file to forget: " fl
+git rm --cached $fl

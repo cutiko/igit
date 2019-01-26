@@ -1,0 +1,2 @@
+read -p "Write a commit message: " msg
+git commit -am "$msg"
