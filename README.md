@@ -1,6 +1,8 @@
 # igit
 Bash scripts for interactive git
 
+DOCUMENTATION PENDING TO BE UPDATED
+
 
 ### icommit
 Simple command for an interactive commit with an input prompt in the bash terminal
